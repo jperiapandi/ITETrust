@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.jpp.itet.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment"
+            app:popUpTo="@id/loginFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_publicDashFragment"
+            app:destination="@id/publicDashFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_memberDashFragment"
+            app:destination="@id/memberDashFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_adminDashFragment"
+            app:destination="@id/adminDashFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_superAdminDashFragment"
+            app:destination="@id/superAdminDashFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_regPendingFragment"
+            app:destination="@id/regPendingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.jpp.itet.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_regCancelledFragment"
+            app:destination="@id/regCancelledFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_regPendingFragment"
+            app:destination="@id/regPendingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regCancelledFragment"
+        android:name="com.jpp.itet.RegCancelledFragment"
+        android:label="fragment_reg_cancelled"
+        tools:layout="@layout/fragment_reg_cancelled" />
+    <fragment
+        android:id="@+id/regPendingFragment"
+        android:name="com.jpp.itet.RegPendingFragment"
+        android:label="fragment_reg_pending"
+        tools:layout="@layout/fragment_reg_pending" />
+    <fragment
+        android:id="@+id/publicDashFragment"
+        android:name="com.jpp.itet.PublicDashFragment"
+        android:label="fragment_public_dash"
+        tools:layout="@layout/fragment_public_dash" />
+    <fragment
+        android:id="@+id/memberDashFragment"
+        android:name="com.jpp.itet.MemberDashFragment"
+        android:label="fragment_member_dash"
+        tools:layout="@layout/fragment_member_dash" />
+    <fragment
+        android:id="@+id/adminDashFragment"
+        android:name="com.jpp.itet.AdminDashFragment"
+        android:label="fragment_admin_dash"
+        tools:layout="@layout/fragment_admin_dash" />
+    <fragment
+        android:id="@+id/superAdminDashFragment"
+        android:name="com.jpp.itet.SuperAdminDashFragment"
+        android:label="fragment_super_admin_dash"
+        tools:layout="@layout/fragment_super_admin_dash" />
+</navigation>

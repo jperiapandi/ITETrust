@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "852512751131",
+    "project_id": "itet-seithur",
+    "storage_bucket": "itet-seithur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852512751131:android:d6bd8eee331a5eacc982be",
+        "android_client_info": {
+          "package_name": "com.jpp.itet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852512751131-2s41mpl5ugfunm0c2mp3jghu0q37qohm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jpp.itet",
+            "certificate_hash": "5f9e6810feef43156847dd033f5980df6debe810"
+          }
+        },
+        {
+          "client_id": "852512751131-u9hcj9pjrvfdtl98pnei7ct6upptpr5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jpp.itet",
+            "certificate_hash": "73a01522939fc21da3c146725fdcf8734027a663"
+          }
+        },
+        {
+          "client_id": "852512751131-m057tnvuqmjuqhcb5nmj19nu322dbdj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKZeheHyHTv-pPAReDlbBtB68WOV9zsLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852512751131-m057tnvuqmjuqhcb5nmj19nu322dbdj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

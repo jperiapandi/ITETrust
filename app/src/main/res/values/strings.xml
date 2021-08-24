@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">அ.தா.க. அறக்கட்டளை</string>
+    <string name="iyothee_thassar">Iyothee Thassar</string>
+    <string name="app_name_full">அயோத்திதாசர் கல்வி அறக்கட்டளை</string>
+    <string name="itet_loc_short">சேத்தூர் - காமராஜ்நகர் 626121</string>
+    <string name="login_welcome_salute">அன்புடையீர் வணக்கம் !</string>
+    <string name="login_info">அயோத்திதாசர் கல்வி அறக்கட்டளை உங்களை அன்புடன் வரவேறக்கின்றது.
+எங்கள் குழும மேலாண்மையினரால் ஒப்புதல் அளிக்கப்பட்டவர்கள்  மட்டுமே இந்த செயலியை பயன்படுத்த முடியும்.
+இதில் சங்க உறுப்பினர்கள் , மேலாண்மையினர் மற்றும் சுற்றுவட்டார பொதுமக்கள் அனைவரும் அடங்குவர்.
+சங்கத்தின் உறுப்பினர் அல்லாத பொதுமக்கள் உள்ளே வர அனுமதி கோருவராயின் அவர்கள் எங்கள் மேலாண்மையினரால் அடையாளம் காணப்பட்டு ஒப்புதல் அளிக்கப்பட்டால் அவர்களும் இந்த செயலியை பயன்படுத்தி மகிழலாம். நாங்கள் பகிரும் பொதுத்தள தகவல்கள் யாவும் பொதுமக்களால் கண்டு கொள்ள முடியும்.
+ஆகையால் நீங்கள் உங்கள் கூகுள் மின்னஞ்சல் கணக்கு மூலம் உள்ளே வாருங்கள்.
+நன்றி !</string>
+
+    <string name="reg_message">உங்கள் கூகுள் கணக்கு மூலம் உள்ளே வந்ததற்கு நன்றி.
+இந்த செயலியை முற்றிலும் பயன்படுத்தி மகிழ எங்களுக்கு உங்களைப்பற்றி மேலும் சில தகல்வல்கள் தேவைப்படுகின்றன. ஆகையால் கிழேகாணும் இந்த படிவத்தை நிரப்பி அனுப்புங்கள். எங்கள் நெறிமுறைப்படி நீங்கள் எங்களோடு பகிரும் இந்த தகவட்களை நாங்கள் பிற வெளிப்புற ஆட்களுடனோ அல்லது நிறுவனங்களுடனோ பகிர்வதில்லை என உறுதி அளிக்கின்றோம்.</string>
+
+
+    <string name="firstName">இயற்பெயர்</string>
+    <string name="required">கண்டிப்பாக குறிப்பிடவும்</string>
+    <string name="lastName">தாய் /தகப்பனார் /குடும்ப பெயர்</string>
+    <string name="dob">பிறந்த தேதி</string>
+    <string name="gender">பாலினம்</string>
+
+    <string-array name="genders">
+        <item>ஆண்</item>
+        <item>பெண்</item>
+    </string-array>
+
+    <string name="qualification">கல்வி தகுதி</string>
+
+
+    <string-array name="qualifications">
+        <item>இளநிலை பட்டம்</item>
+        <item>முதுநிலை பட்டம்</item>
+        <item>முனைவர் பட்டம்</item>
+        <item>பள்ளிக்கல்வி</item>
+    </string-array>
+
+    <string name="mobile_number">தொலைபேசி எண்</string>
+    <string name="postal_code">அஞ்சல் குறியீடு</string>
+    <string name="address1">கதவு எண் மற்றும் தெரு பெயர்</string>
+    <string name="locality">ஊர்</string>
+    <string name="district">மாவட்டம்</string>
+    <string name="default_postal_code">626121</string>
+    <string name="default_locality">சேத்தூர்</string>
+    <string name="default_district">விருதுநகர்</string>
+    <string name="error_mobnum_maxsize">பத்து இலக்கங்கள் மட்டுமே இருக்க வேண்டும்</string>
+    <string name="error_postcode_maxsize">ஆறு இலக்கங்கள் மட்டுமே இருக்க வேண்டும்</string>
+
+    <string name="submit">அனுப்புக</string>
+    <string name="cancel">வேண்டாம்</string>
+
+    <string name="respected">மதிப்பிற்குரிய</string>
+    <string name="reg_pending_msg">அயோத்திதாசர் கல்வி அறக்கட்டளையின் பொதுமக்கள் வகைப்பாட்டில் இணைவதற்கு விரும்பி விண்ணப்பம் அனுப்பியமைக்கு நன்றி. உங்கள் விண்ணப்பம் இன்னும் எங்கள் மேலாண்மை குழுவினரின் ஆய்வில் உள்ளது. இந்த ஆய்வின் முடிவு எங்கள் மேலாண்மை குழுவினரால் மின்னஞ்சல் மூலமாய் அனுப்பி வைக்கப்படும். அதன் பிறகு நீங்கள் எங்கள் செயலியை பயன்படுத்தி மகிழலாம்.</string>
+    <string name="itet_about_us">அயோத்திதாசர் கல்வி அறக்கட்டளை பற்றி மேலும் அறிக</string>
+    <string name="hello">Vanakkam</string>
+    <string name="welcomeMsg">To use this app you need to Sign-in</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
